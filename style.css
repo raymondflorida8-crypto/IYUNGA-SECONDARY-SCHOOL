@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0cap;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family:Arial, Helvetica, sans-serifs
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color:#333;
+}
+section{
+    text-align: left;
+    padding: 40px 8%;
+}
+section h2,section h3{
+    text-align: left;
+}
+section p{
+    text-align: left;
+}
+.about-section{
+    text-align: left;
+    padding: 40px 8%;
+}
+.hero-text{
+    position: relative;
+    width: 200%;
+    height: 80vh;
+    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url("school.png");
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start; 
+    justify-content: center;
+    padding: left 100px;
+    text-align: left;
+    color: #fff;
+}
+.hero-text h1{
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.2; 
+text-align: left;
+}
+.white-text{
+    color: #fff
+}
+.yellow-text{
+    color: #ffd700;
+}
+ .hero-text p{
+    font-size 1.1rem;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: left;
+ }
+ header,.hero,.hero-text{
+    width: 100%;
+    margin: 0%;
+    padding: 0cm;
+ }
+ .btn-learn{
+ display:inline-flex;
+ padding: 12px 28px;
+ background-color: #ffd700;
+ color: #1a2b4c;
+ text-decoration:none;
+ border-radius: 25px;
+ font-weight:bold;
+ transition:background-color0.3s ease;
+ }
+ .btn-learn:hover{
+    background-color: #007bff;
+    color: #ffffff;
+ }
+header{
+    background-color: #ffffff;
+    color:#064b7a;
+    text-align: left;
+    padding: 50px;
+    border-bottom:4px solid #0b6fa4 ; 
+}
+nav{
+    background-color: #064b7a;
+    text-align: center;
+    padding:10px 0 ;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content:center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover{
+    background-color: #0b6fa4;
+}
+main{
+    max-width: 1140px; 
+    margin: auto;
+    padding:40px ;
+}
+h2,h3 {
+    color: #064b7a;
+    margin-bottom: 10px;
+    text-align:left;  
+}
+p{
+    font-size: 17px;
+    color: #555;
+    margin-bottom:10px;
+}
+footer{
+    background-color: #064b7a;
+    color: #fff;
+    text-align: center;
+    padding:20px ;
+} 
